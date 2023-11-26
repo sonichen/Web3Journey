@@ -1,0 +1,145 @@
+# [Info]
+site_name: Web3Journey # 左上角标题
+# site_url: https://github.com/sonichen/notes
+site_author: Soni
+site_description: Web3Journey
+
+# [Navigtion]
+nav:
+  - Home: index.html
+  - Blockchain: 
+    - 阅读_漫画区块链100问:
+      - Blockchain/漫画区块链100问阅读总结/01.基础概念篇.md
+      - Blockchain/漫画区块链100问阅读总结/02.比特币篇.md
+      - Blockchain/漫画区块链100问阅读总结/03.矿业篇.md
+      - Blockchain/漫画区块链100问阅读总结/04.钱包篇.md
+    - 阅读_精通以太坊:
+      - Blockchain/精通以太坊/01.什么是以太坊.md
+      - Blockchain/精通以太坊/02.以太坊基础.md
+      - Blockchain/精通以太坊/08.智能合约.md
+    - 网课_从区块链到比特币:
+      - Blockchain/网课_从区块链到比特币/01.从比特币到区块链.md
+      - Blockchain/网课_从区块链到比特币/02.区块链如何运行.md
+      - Blockchain/网课_从区块链到比特币/03.区块链的骨骼与灵魂.md
+      - Blockchain/网课_从区块链到比特币/04.区块链误区.md
+      - Blockchain/网课_从区块链到比特币/05.区块链2.0以太坊.md
+      - Blockchain/网课_从区块链到比特币/06.区块链技术前沿发展.md
+      - Blockchain/网课_从区块链到比特币/07.主流区块链项目介绍.md
+      - Blockchain/网课_从区块链到比特币/09.区块链行业应用总览.md
+    - 阅读_以太坊原理书:
+      - Blockchain/以太坊原理书.md
+  - SmartContract: 
+    - Solidity:
+      - 网课_Solidity:
+        - Solidity/网课_Solidity8.0/02HelloWorld.md
+    - Vyper:
+      - SmartContract/Vyper/01.HelloWorld.md
+  - Dapp: 
+      - 网课_DApp 设计与开发:
+        - Dapp/网课_DApp设计与开发/01.课程简介.md
+        - Dapp/网课_DApp设计与开发/02.区块链基本概念回顾.md
+        - Dapp/网课_DApp设计与开发/03.NFT交易市场简介.md
+        - Dapp/网课_DApp设计与开发/04.Remix.md
+        - Dapp/网课_DApp设计与开发/05.hardhat.md
+        - Dapp/网课_DApp设计与开发/06.md
+        - Dapp/网课_DApp设计与开发/07.ERC20.md
+        - Dapp/网课_DApp设计与开发/08.ERC721.md
+      - 网课_以太坊Dapp开发:
+        - Dapp/网课_以太坊Dapp开发/web3.js入门.md
+        - Dapp/网课_以太坊Dapp开发/web3.js和ether.js介绍.md
+        - Dapp/网课_以太坊Dapp开发/web3.js调用智能合约.md
+        - Dapp/网课_以太坊Dapp开发/代币.md
+        - Dapp/网课_以太坊Dapp开发/备注.md
+        - Dapp/网课_以太坊Dapp开发/账户系统.md
+        - Dapp/网课_以太坊Dapp开发/钱包.md
+        - Dapp/网课_以太坊Dapp开发/钱包项目.md
+        - Dapp/网课_以太坊Dapp开发/投票系统.md
+
+
+  - Defi: 
+    - 网课_区块链金融:
+      - DeFi/网课_区块链金融/01.课程简介.md
+      - DeFi/网课_区块链金融/02.稳定币.md
+  - Tools:
+    - Tools/挖测试币.md 
+    - DuneAnalytics:
+      - Tools/DuneAnalytics/DuneAnalytics.md
+    - IPFS:
+      - Tools/IPFS/IPFS.md
+      
+# [UI]
+## [top]
+theme:
+  name: material
+  palette:
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: dark # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: light
+  features:
+    - navigation.tabs # 使用Tab来进行分类
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - content.code.copy # 可以通过按钮复制代码
+    - content.action.edit # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
+  language: zh # 一些提示性的文字会变成中文
+  icon:
+    repo: fontawesome/brands/github
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+## [top-right corner]
+# repo_url:  https://github.com/sonichen/notes 
+repo_name:  notes 
+## [bottom-left corner]
+copyright: sonichen # 左下角的版权声明
+## [bottom-right corner]
+# extra:
+#   social: # icons
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/sonichen/notes
+#       name: GitHub | notes
+
+# [Extensions]
+plugins:
+  - search: # 现在还不支持中文搜索 支持之后可以设置语言
+    # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
+      lang:
+        - en
+        - ja
+  - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+markdown_extensions:
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - attr_list # 给图片后面添加{width="300"}设置大小
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
+  - pymdownx.details # admonition需要
+
+extra_javascript:
+  # latex支持
+  # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
+  # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docs/mkdocs/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docs/mkdocs/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
+  - mkdocs/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
+extra_css:
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+
+ 
