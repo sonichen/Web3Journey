@@ -30,8 +30,10 @@ nav:
       - Blockchain/以太坊原理书.md
   - SmartContract: 
     - Solidity:
-      - 网课_Solidity:
-        - Solidity/网课_Solidity8.0/02HelloWorld.md
+      - en网课:
+        - SmartContract/Solidity/网课cn/02HelloWorld.md
+      - cn网课:
+        - SmartContract/Solidity/网课cn/02HelloWorld.md
     - Vyper:
       - SmartContract/Vyper/01.HelloWorld.md
   - Dapp: 
@@ -54,8 +56,6 @@ nav:
         - Dapp/网课_以太坊Dapp开发/钱包.md
         - Dapp/网课_以太坊Dapp开发/钱包项目.md
         - Dapp/网课_以太坊Dapp开发/投票系统.md
-
-
   - Defi: 
     - 网课_区块链金融:
       - DeFi/网课_区块链金融/01.课程简介.md
