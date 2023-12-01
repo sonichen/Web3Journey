@@ -30,10 +30,92 @@ nav:
       - Blockchain/以太坊原理书.md
   - SmartContract: 
     - Solidity:
-      - en网课:
-        - SmartContract/Solidity/网课cn/02HelloWorld.md
+      - notes:
+        - Basic:
+          - SmartContract/Solidity/网课cn/0.solidity0.8特性.md
+        - Advance:
+          - SmartContract/Solidity/网课cn/0.solidity0.8特性.md
       - cn网课:
+        - SmartContract/Solidity/网课cn/0.solidity0.8特性.md
         - SmartContract/Solidity/网课cn/02HelloWorld.md
+        - SmartContract/Solidity/网课cn/03.类型和值.md
+        - SmartContract/Solidity/网课cn/04.函数简介.md
+        - SmartContract/Solidity/网课cn/05.状态变量.md
+        - SmartContract/Solidity/网课cn/06局部变量.md
+        - SmartContract/Solidity/网课cn/07全局变量.md
+        - SmartContract/Solidity/网课cn/08.只读函数.md
+        - SmartContract/Solidity/网课cn/09计数器合约.md
+        - SmartContract/Solidity/网课cn/10变量默认值.md
+        - SmartContract/Solidity/网课cn/11常量.md
+        - SmartContract/Solidity/网课cn/12分支.md
+        - SmartContract/Solidity/网课cn/13循环.md
+        - SmartContract/Solidity/网课cn/14.报错控制.md
+        - SmartContract/Solidity/网课cn/15函数修改器.md
+        - SmartContract/Solidity/网课cn/16构造函数.md
+        - SmartContract/Solidity/网课cn/17Owner.md
+        - SmartContract/Solidity/网课cn/18函数返回值.md
+        - SmartContract/Solidity/网课cn/19数组.md
+        - SmartContract/Solidity/网课cn/20数组移动删除元素.md
+        - SmartContract/Solidity/网课cn/21删除数组_替换.md
+        - SmartContract/Solidity/网课cn/22映射.md
+        - SmartContract/Solidity/网课cn/23映射迭代.md
+        - SmartContract/Solidity/网课cn/24结构体.md
+        - SmartContract/Solidity/网课cn/25枚举.md
+        - SmartContract/Solidity/网课cn/26通过合约部署合约.md
+        - SmartContract/Solidity/网课cn/27存储位置.md
+        - SmartContract/Solidity/网课cn/28简单存储.md
+        - SmartContract/Solidity/网课cn/29待办事项列表.md
+        - SmartContract/Solidity/网课cn/30事件.md
+        - SmartContract/Solidity/网课cn/31继承.md
+        - SmartContract/Solidity/网课cn/32多线继承.md
+        - SmartContract/Solidity/网课cn/33运行父级合约构造函数.md
+        - SmartContract/Solidity/网课cn/34调用父级合约函数.md
+        - SmartContract/Solidity/网课cn/35可视范围.md
+        - SmartContract/Solidity/网课cn/36不可变量.md
+        - SmartContract/Solidity/网课cn/37支付ETH.md
+        - SmartContract/Solidity/网课cn/38回退函数.md
+        - SmartContract/Solidity/网课cn/39发送ETH.md
+        - SmartContract/Solidity/网课cn/40合约钱包.md
+        - SmartContract/Solidity/网课cn/41调用其他函数.md
+        - SmartContract/Solidity/网课cn/42接口.md
+        - SmartContract/Solidity/网课cn/43低级call.md
+        - SmartContract/Solidity/网课cn/47哈希运算.md
+        - SmartContract/Solidity/网课cn/48验证签名.md
+        - SmartContract/Solidity/网课cn/49权限控制合约.md
+        - SmartContract/Solidity/网课cn/50自毁合约.md
+        - SmartContract/Solidity/网课cn/51小猪存钱罐.md
+        - SmartContract/Solidity/网课cn/52ERC20.md
+        - SmartContract/Solidity/网课cn/55荷兰拍卖.md
+      - en网课:
+        - SmartContract/Solidity/网课en/0.Solidity.md
+        - SmartContract/Solidity/网课en/1.FirstContract.md
+        - SmartContract/Solidity/网课en/2.Varibale.md
+        - SmartContract/Solidity/网课en/3.VariableType.md
+        - SmartContract/Solidity/网课en/4.Constants.md
+        - SmartContract/Solidity/网课en/5.Immutable.md
+        - SmartContract/Solidity/网课en/6.EtherANDWei.md
+        - SmartContract/Solidity/网课en/7.Gas.md
+        - SmartContract/Solidity/网课en/8.IfElse.md
+        - SmartContract/Solidity/网课en/9.Loop.md
+        - SmartContract/Solidity/网课en/10.Mapping.md
+        - SmartContract/Solidity/网课en/11.Array.md
+        - SmartContract/Solidity/网课en/12.Enum.md
+        - SmartContract/Solidity/网课en/13.struct.md
+        - SmartContract/Solidity/网课en/14.DataLocations.md
+        - SmartContract/Solidity/网课en/15.Function.md
+        - SmartContract/Solidity/网课en/16.FunctionModifier.md
+        - SmartContract/Solidity/网课en/17.Events.md
+        - SmartContract/Solidity/网课en/18.Constructor.md
+        - SmartContract/Solidity/网课en/19.Inheritance.md
+        - SmartContract/Solidity/网课en/20.Visibility.md
+        - SmartContract/Solidity/网课en/21.Interface.md
+        - SmartContract/Solidity/网课en/22.Error.md
+        - SmartContract/Solidity/网课en/23.DeployAnyContract.md
+        - SmartContract/Solidity/网课en/24.this.md
+        - SmartContract/Solidity/网课en/25.接收ETH.md
+        - SmartContract/Solidity/网课en/26.SendETH.md
+        - SmartContract/Solidity/网课en/27.call.md
+        - SmartContract/Solidity/网课en/28.payable.md
     - Vyper:
       - SmartContract/Vyper/01.HelloWorld.md
   - Dapp: 
