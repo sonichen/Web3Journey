@@ -125,9 +125,14 @@ nav:
         - Dapp/网课_DApp设计与开发/03.NFT交易市场简介.md
         - Dapp/网课_DApp设计与开发/04.Remix.md
         - Dapp/网课_DApp设计与开发/05.hardhat.md
-        - Dapp/网课_DApp设计与开发/06.md
         - Dapp/网课_DApp设计与开发/07.ERC20.md
         - Dapp/网课_DApp设计与开发/08.ERC721.md
+        - Dapp/网课_DApp设计与开发/09.NFT市场交易开发.md
+        - Dapp/网课_DApp设计与开发/10.Express.js.md
+        - Dapp/网课_DApp设计与开发/11.NFT_Market后端开发.md
+        - Dapp/网课_DApp设计与开发/12.React.js基础.md
+
+
       - 网课_以太坊Dapp开发:
         - Dapp/网课_以太坊Dapp开发/web3.js入门.md
         - Dapp/网课_以太坊Dapp开发/web3.js和ether.js介绍.md
@@ -148,7 +153,31 @@ nav:
       - Tools/DuneAnalytics/DuneAnalytics.md
     - IPFS:
       - Tools/IPFS/IPFS.md
-      
+  - Concept:
+    - Basic:
+      - Concept/Basic/Blockchain.md
+      - Concept/Basic/Block.md
+      - Concept/Basic/Node.md
+      - Concept/Basic/Hashing.md
+      - Concept/Basic/MerkleTree.md
+      - Concept/Basic/Address.md
+      - Concept/Basic/Transaction.md
+      - Concept/Basic/Accounts.md
+      - Concept/Basic/Fork.md
+      - Concept/Basic/Mining.md
+    - Consensus Mechanisms:
+      - Concept/ConsensusMechanisms/ConsensusMechanisms.md
+      - Concept/ConsensusMechanisms/PoW.md
+      - Concept/ConsensusMechanisms/PoS.md
+      - Concept/ConsensusMechanisms/DPoS.md
+      - Concept/ConsensusMechanisms/PoA.md
+    - Web3.0:
+      - Concept/Web3.0/Web3.0.md
+    - Storage:
+      - Concept/Storage/DecentralizedStorage.md
+      - Concept/Storage/IPFS.md
+      - Concept/Storage/Arweave.md
+
 # [UI]
 ## [top]
 theme:
